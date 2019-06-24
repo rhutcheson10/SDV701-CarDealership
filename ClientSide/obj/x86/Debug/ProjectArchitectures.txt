@@ -1,0 +1,1 @@
+C:\Users\HN\Documents\CarDealer\ClientSide\ClientSide.csproj;x86

@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="ClientSide.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ClientSide"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Loaded="Grid_Loaded">
+        <TextBlock x:Name="Car_Dealership" HorizontalAlignment="Left" Margin="40,21,0,0" Text="Car Dealership" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Cars_avaliable" HorizontalAlignment="Left" Margin="40,63,0,0" Text="Cars avaliable" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstVehicles" HorizontalAlignment="Left" Height="172" Margin="10,116,0,0" VerticalAlignment="Top" Width="325" DoubleTapped="LstVehicles_DoubleTapped">
+            <TextBlock x:Name="textBlock" Text="TextBlock" TextWrapping="Wrap"/>
+        </ListBox>
+        <TextBlock x:Name="txbMessages" HorizontalAlignment="Left" Margin="24,320,0,0" Text="Message" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

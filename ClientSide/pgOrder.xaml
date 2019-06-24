@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="ClientSide.pgOrder"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ClientSide"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Loaded="Grid_Loaded">
+        <TextBlock x:Name="Customer_Details" HorizontalAlignment="Left" Margin="48,47,0,0" Text="Customer Details" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="btnPurchase" Content="Purchase" HorizontalAlignment="Left" Margin="264,301,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCustomerName" HorizontalAlignment="Left" Margin="49,109,0,0" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="49,173,0,0" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDatePurchased" HorizontalAlignment="Left" Margin="49,241,0,0" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="49,84,0,0" Text="Name" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" Margin="49,149,0,0" Text="Email" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbCarID" HorizontalAlignment="Left" Margin="347,88,0,0" Text="CarID" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="53,221,0,0" Text="Date" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbModel" HorizontalAlignment="Left" Margin="347,125,0,0" Text="Model" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbYear" HorizontalAlignment="Left" Margin="347,159,0,0" Text="Year" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbPurchasePrice" HorizontalAlignment="Left" Margin="347,205,0,0" Text="Price" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Vehicle_Details" HorizontalAlignment="Left" Margin="335,51,0,0" Text="Vehicle Details" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="134,301,0,0" VerticalAlignment="Top" Click="BtnCancel_Click"/>
+    </Grid>
+</Page>
